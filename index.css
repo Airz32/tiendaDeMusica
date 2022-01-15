@@ -1,24 +1,23 @@
 h1 {
     text-align: center;
-    color: blue;
+    color: white;
+    text-shadow: #111 0px 0px 10px;
+    height: 200px;
+    line-height: 200px;
+    vertical-align: middle;
 }
 
 p {
     text-align: center;
-    color: red;
-    
-}
-
-.fondo{
-    background-image: url(https://media.istockphoto.com/photos/product-showcase-background-warehouse-blurred-3d-rendering-picture-id876420708?k=20&m=876420708&s=170667a&w=0&h=J5tYDIx0h6co2UmX9b53Xpi4K31aS7zeqwTur80PHvk=);
-    background-size: cover;
 }
 
 .cabecera {
-    color: #fff;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    vertical-align: middle;
-    text-shadow: #111 0px 0px 10px;
+    background-image: url(https://media.istockphoto.com/photos/product-showcase-background-warehouse-blurred-3d-rendering-picture-id876420708?k=20&m=876420708&s=170667a&w=0&h=J5tYDIx0h6co2UmX9b53Xpi4K31aS7zeqwTur80PHvk=);
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
